@@ -1,12 +1,13 @@
 void setup() {
-  // put your setup code here, to run once:
-  pinMode(13,OUTPUT);
+	// 初始化
+	pinMode(13, OUTPUT); // 設定 13 腳為輸出
 }
 
 void loop() {
-  digitalWrite(13, HIGH);
-  delay(1000);
-  digitalWrite(13, LOW);
-  delay(1000);
-  // put your main code here, to run repeatedly:
+
+	// 控制 LED 閃爍
+	digitalWrite(13, HIGH); // 讓 LED 亮
+	delay(1000); // 延遲 1 秒
+	digitalWrite(13, LOW); // 讓 LED 暗
+	delay(1000); // 延遲 1 秒
 }
